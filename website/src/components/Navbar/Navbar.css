@@ -8,6 +8,7 @@
     width: 400px;
     height: 120px;
     margin: 10px 50px;
+    padding-right: 150px;
 }
 ul li {
     display: flex;
@@ -18,9 +19,11 @@ ul li {
     list-style: none;
 }
 li {
-    background-color: yellow;
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
+}
+li:hover {
+    background-color: yellow;
 }
 ul {
     display: flex;
@@ -28,6 +31,9 @@ ul {
 }
 a {
     text-decoration: none;
+    color: #4a5f58;
+    font-size: 18px;
+    font-weight: 700;
 }
 .links {
     height: 40px;
