@@ -1,0 +1,42 @@
+.testimonials {
+    height: 500px;
+    background-color: #4a5f58;
+    margin-top: 50px;
+    padding: 80px;
+}
+.testimonials h1 {
+    text-align: center;
+    color: yellow;
+    margin-bottom: 100px;
+}
+.star {
+    margin: 10px 0 ;
+    align-content: center;
+}
+#icon {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.profile-pic {
+    display: flex;
+}
+.profile-pic h4 {
+    margin: auto 0 10px 20px;
+    color: yellow;
+    font-size: 20px;
+}
+.feedback p {
+    width: 75%;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+}
+.reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.feedback {
+    margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    height: 90vh;
+    padding-top: 300px;
+}
+.left-about {
+    width: 35%;
+    padding-left: 480px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 0 50px 50px 0;
+    align-items: center;
+    height: 500px;
+}
+.left-about h1 {
+    font-size: 36px;
+    color: #4a5f58;
+}
+.left-about h2 {
+    font-size: 24px;
+    color: yellow;
+}
+.left-about p {
+    padding-top: 50px;
+    width: 70%;
+    font-size: 18px;
+}
+.right-about {
+    width: 50%;
+    margin-left: 50px;
+}
+.pic1{
+    margin: 100px 0 0 100px;
+    border-radius: 20px;
+}
+.pic2{
+    position: absolute;
+    margin: -50px 0 0 -200px;
+    border-radius: 20px;
+}
+.right-about img {
+    border: 5px solid #4a5f58;
+}

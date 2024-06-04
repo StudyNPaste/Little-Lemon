@@ -10,26 +10,24 @@
     margin: 10px 50px;
     padding-right: 150px;
 }
-ul li {
+.links li {
     display: flex;
     text-decoration-style: none;
     align-items: center;
     justify-content: center;
     width: 130px;
     list-style: none;
-}
-li {
     border-radius: 15px;
     cursor: pointer;
 }
-li:hover {
+.links li:hover {
     background-color: yellow;
 }
-ul {
+.navbar ul {
     display: flex;
     gap: 20px;
 }
-a {
+.links a {
     text-decoration: none;
     color: #4a5f58;
     font-size: 18px;
