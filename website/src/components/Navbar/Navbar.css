@@ -11,8 +11,10 @@
     padding-right: 150px;
 }
 .links li {
+    list-style: none;
+}
+.links a {
     display: flex;
-    text-decoration-style: none;
     align-items: center;
     justify-content: center;
     width: 130px;
@@ -20,7 +22,7 @@
     border-radius: 15px;
     cursor: pointer;
 }
-.links li:hover {
+.links a:hover {
     background-color: yellow;
 }
 .navbar ul {
@@ -32,6 +34,8 @@
     color: #4a5f58;
     font-size: 18px;
     font-weight: 700;
+    width: 130px;
+    height: 40px;
 }
 .links {
     height: 40px;

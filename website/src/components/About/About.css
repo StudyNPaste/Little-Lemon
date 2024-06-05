@@ -2,6 +2,7 @@
     display: flex;
     height: 90vh;
     padding-top: 300px;
+    background-color: rgb(223, 223, 223);
 }
 .left-about {
     width: 35%;
