@@ -20,9 +20,10 @@
     color: yellow;
 }
 .left-about p {
-    padding-top: 50px;
+    padding-top: 30px;
     width: 70%;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .right-about {
     width: 50%;

@@ -20,9 +20,12 @@ export const Footer = () => {
         <div className='contact'>
             <h1>Contact</h1>
             <ul>
-                <li>Address</li>
-                <li>Phone Number</li>
-                <li>Email</li>
+                <li>(Address)</li>
+                <li>00 Little Lemon Street</li>
+                <li>(Phone Number)</li>
+                <li>1-999-999-9000</li>
+                <li>(Email)</li>
+                <li>littlelemon@gmail.com</li>
             </ul>
         </div>
         <div className='socials'>

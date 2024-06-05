@@ -1,17 +1,31 @@
 .container {
     margin-top: 175px;
-    height: 90vh;
+    height: 100vh;
 }
 .specials {
     display: flex;
     width: 65%;
     margin: 0 auto;
+    color: #4a5f58;
+}
+.title{
+    display: flex;
+    padding:0 10px 40px 0;
+    justify-content: space-between;
+}
+.title h1 {
+    color: #4a5f58;
+}
+.title p {
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
 }
 .specials h1 {
     font-size: 36px;
     font-weight: 700;
 }
-.specials button {
+.container button {
     margin-left: auto;
     width: 200px;
     height: 50px;
@@ -38,8 +52,9 @@
     width: 375px;
     height: 600px;
     margin: 0 auto;
-    background-color: rgb(173, 173, 173);
-    border-radius: 20px;
+    border-radius: 10px;
+    background: ;
+    padding-left: 20px;
 }
 #card2 {
     display: flex;
@@ -47,8 +62,10 @@
     width: 375px;
     height: 600px;
     margin: 0 auto;
-    background-color: rgb(173, 173, 173);
-    border-radius: 20px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 10px;
+    padding-left: 20px;
+
 }
 #card3 {
     display: flex;
@@ -56,7 +73,11 @@
     width: 375px;
     height: 600px;
     margin: 0 auto;
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(196, 196, 196);
     border:black 10px;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#card1 button {
+
 }

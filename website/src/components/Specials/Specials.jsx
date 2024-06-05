@@ -24,7 +24,7 @@ export const Specials = () => {
             quam dicta reiciendis.
           </p>
           <div>
-            <p>Order a delivery</p>
+            <button>Order a delivery</button>
             {/*<img src="" alt="" />*/}
           </div>
         </div>
@@ -40,7 +40,7 @@ export const Specials = () => {
             quam dicta reiciendis.
           </p>
           <div className="footer-card">
-            <p>Order a delivery</p>
+            <button>Order a delivery</button>
             {/*<img src="" alt="" />*/}
           </div>
         </div>
@@ -56,7 +56,7 @@ export const Specials = () => {
             quam dicta reiciendis.
           </p>
           <div className="footer-card">
-            <p>Order a delivery</p>
+            <button>Order a delivery</button>
             {/* <img src="" alt="" /> */}
           </div>
         </div>
