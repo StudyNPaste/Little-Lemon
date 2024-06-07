@@ -1,7 +1,6 @@
 .testimonials {
     height: 500px;
-    background-color: #4a5f58;
-    margin-top: 50px;
+    background: linear-gradient(180deg, #4a5f58fa, rgb(255, 255, 255)  500%);
     padding: 80px;
 }
 .testimonials h1 {

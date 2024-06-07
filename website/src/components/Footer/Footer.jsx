@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 import footlogo from '../Assets/footer-logo.png'
 
@@ -9,12 +10,12 @@ export const Footer = () => {
         <div className='foot-menu'>
             <h1>Doormat Navigation</h1>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservation</li>
-                <li>Online Order</li>
-                <li>Login</li>
+                <li><Link style={{textDecoration: 'none'}} to='/'>Home</Link></li>
+                <li><Link style={{textDecoration: 'none'}} to='/about'>About</Link></li>
+                <li><Link style={{textDecoration: 'none'}} to='/menu'>Menu</Link></li>
+                <li><Link style={{textDecoration: 'none'}} to='/reservation'>Reservation</Link></li>
+                <li><Link style={{textDecoration: 'none'}} to='/order'>Order Online</Link></li>
+                <li><Link style={{textDecoration: 'none'}} to='/login'>Login</Link></li>
             </ul>
         </div>
         <div className='contact'>

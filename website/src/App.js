@@ -9,6 +9,9 @@ import { Footer } from './components/Footer/Footer';
 import { Home } from './pages/Home'
 import LoginSignup from './pages/LoginSignup'
 import { AboutSection }  from './pages/AboutSection';
+import { Menu } from './pages/Menu'
+import { Reservations } from './pages/Reservations';
+import { OnlineOrder } from './pages/OnlineOrder';
 
 const App = () => {
   return (
@@ -17,8 +20,11 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='about' element={<AboutSection/>} />
-        <Route path='/login' element={<LoginSignup/>}/>
+        <Route path='/about' element={<AboutSection/>} />
+        <Route path='/menu' element={<Menu/>}/>
+        <Route path='/reservation' element={<Reservations/>}/>
+        <Route path='/order' element={<OnlineOrder/>}/>
+        <Route path='login' element={<LoginSignup/>}/>
       </Routes>
       {/*<Reservation/>}
       {<Specials/>}
