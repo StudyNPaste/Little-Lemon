@@ -4,7 +4,7 @@
 }
 .form {
     height: 510px;
-    background-color: rgba(255, 255, 255, 0.534);
+    background-color: rgba(255, 255, 255, 0.534 );
     width: 70%;
     margin: 0 auto;
     border-radius: 15px;
@@ -60,4 +60,10 @@
 }
 #select {
     margin:30px 30px 0 0;
+}
+.formbtn button:disabled {
+    opacity: 0.35;
+}
+input.input-error,select.input-error {
+    border-color: #fc8181;
 }

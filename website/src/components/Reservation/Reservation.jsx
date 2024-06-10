@@ -1,5 +1,6 @@
 import './Reservation.css'
 import hero from '../Assets/hero.jpg'
+import { Link } from 'react-router-dom'
 
 export const Reservation = () => {
   return (
@@ -10,7 +11,7 @@ export const Reservation = () => {
             <p>
                 We are a family owned Mediterranean restaurant, located on Maldore Street in Chicago, Illinois. We focus on traditional recipes served with a modern twist.
             </p>
-            <button>Reserve a table</button>
+            <Link to='/booking'><button>Reserve a table</button></Link>
         </div>
         <div className='right-hero'>
             <img src={ hero } alt="" />
