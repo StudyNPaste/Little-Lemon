@@ -21,6 +21,11 @@
     list-style: none;
     border-radius: 15px;
     cursor: pointer;
+    text-decoration: none;
+    color: #4a5f58;
+    font-size: 18px;
+    font-weight: 700;
+    height: 40px;
 }
 .links a:hover {
     background-color: yellow;
@@ -29,14 +34,54 @@
     display: flex;
     gap: 20px;
 }
-.links a {
-    text-decoration: none;
-    color: #4a5f58;
-    font-size: 18px;
-    font-weight: 700;
-    width: 130px;
-    height: 40px;
-}
 .links {
     height: 40px;
 }
+
+
+@media (max-width: 1620px){
+    .logo {
+        padding-right: 75px;
+        height: 100px;
+        width: 300px;
+        margin: 10px 0 10px 50px;
+    }
+    .links a {
+        font-size: 16px;
+    }
+    .navbar ul {
+        gap: 0px;
+    }
+}
+@media (max-width: 1275px){
+    .logo {
+        padding-right: 40px;
+        height: 75px;
+        width: 250px;
+        margin: 10px 0 10px 15px;
+    }
+    .links a {
+        font-size: 12px;
+        width: 80px;
+    }
+    .navbar ul {
+        gap: 0px;
+    }
+}
+@media (max-width:830px) {
+    .links {
+        padding-left: 0;
+    }
+}
+@media (max-width:600px) {
+    .logo {
+        padding-right: 20px;
+        height: 35px;
+        width: 110px;
+        margin-left: 10px;
+    }
+    .links a {
+        width: 45px;
+    }
+}
+

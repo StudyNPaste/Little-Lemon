@@ -67,3 +67,31 @@
 input.input-error,select.input-error {
     border-color: #fc8181;
 }
+@media (max-width:1255px) {
+    .pic {
+        display: none;
+    }
+    .form-class {
+        width: 90%;
+        margin: 0 auto;
+    }
+    h1.header {
+        font-size: 30px;
+    }
+    h2.header {
+        color: #4a5f58;
+        font-size: 18px;
+    }
+}
+@media (max-width:638px) {
+    .form-class {
+        grid-template-columns: 1fr;
+    }
+    .header{
+        padding: 0;
+    }
+    .formbtn {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

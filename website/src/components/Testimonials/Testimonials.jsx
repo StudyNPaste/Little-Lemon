@@ -37,7 +37,7 @@ export const Testimonials = () => {
                 </div>
                 <p>We really liked it here. Liked the vibe, thought the service was really friendly, helpful, and good, and the food was excellent.</p>
             </div>
-            <div className='feedback'>
+            <div className='feedback' id='chantal'>
                 <div className='star'>
                     <img src={star} alt="" />
                     <img src={star} alt="" />

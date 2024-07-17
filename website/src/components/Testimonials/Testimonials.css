@@ -36,6 +36,47 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.feedback {
-    margin: 0 auto;
+@media (max-width:1320px) {
+    .testimonials{
+        padding: 0;
+        height: 100%;
+    }
+    .testimonials h1 {
+        padding: 15px 0;
+        margin: 0;
+    }
+    .reviews {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+    .feedback p {
+        height: 100px;
+        width: 90%;
+    }
+    #icon {
+        width: 75px;
+        height: 75px;
+    }
+}
+@media (max-width:760px) {
+    .reviews {
+        grid-template-columns: 1fr;
+     }
+     .feedback {
+        margin-left: 15%;
+     }
+     .feedback p {
+        height: 75px;
+        width: 90%;
+        font-size: 14px;
+    }
+}
+@media (max-width:460px) {
+    .feedback p {
+        font-size: 12px;
+    }
+    #icon {
+        width: 40px;
+        height: 40px;
+    }
 }

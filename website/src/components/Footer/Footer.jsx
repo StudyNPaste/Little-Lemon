@@ -13,8 +13,6 @@ export const Footer = () => {
                 <li><Link style={{textDecoration: 'none'}} to='/'>Home</Link></li>
                 <li><Link style={{textDecoration: 'none'}} to='/about'>About</Link></li>
                 <li><Link style={{textDecoration: 'none'}} to='/menu'>Menu</Link></li>
-                <li><Link style={{textDecoration: 'none'}} to='/reservation'>Reservation</Link></li>
-                <li><Link style={{textDecoration: 'none'}} to='/order'>Order Online</Link></li>
                 <li><Link style={{textDecoration: 'none'}} to='/login'>Login</Link></li>
             </ul>
         </div>
@@ -32,8 +30,8 @@ export const Footer = () => {
         <div className='socials'>
             <h1>Social Media Links</h1>
             <ul>
-                <li><a href="https://antuanfurtch.netlify.app" target='_blank'>Portfolio</a></li>
-                <li><a href="https://www.linkedin.com/in/antuanfurtch" target='_blank'>LinkedIn</a></li>
+                <li><a href="https://antuanfurtch.netlify.app" target='__blank'>Portfolio</a></li>
+                <li><a href="https://www.linkedin.com/in/antuanfurtch" target='__blank'>LinkedIn</a></li>
             </ul>
         </div>
     </div>

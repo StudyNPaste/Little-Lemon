@@ -10,8 +10,6 @@ export const Navbar = () => {
         <li><Link style={{textDecoration: 'none'}} to='/'>Home</Link></li>
         <li><Link style={{textDecoration: 'none'}} to='/about'>About</Link></li>
         <li><Link style={{textDecoration: 'none'}} to='/menu'>Menu</Link></li>
-        <li><Link style={{textDecoration: 'none'}} to='/reservation'>Reservation</Link></li>
-        <li><Link style={{textDecoration: 'none'}} to='/order'>Order Online</Link></li>
         <li><Link style={{textDecoration: 'none'}} to='/login'>Login</Link></li>
       </ul>
     </div>

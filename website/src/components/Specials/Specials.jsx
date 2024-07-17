@@ -31,7 +31,7 @@ export const Specials = () => {
     <div className="container">
       <div className="specials">
         <h1>Specials</h1>
-        <button>Online Menu</button>
+        <button id="online-menu">Online Menu</button>
       </div>
       <div className="cards">
         <div  id="card1">
@@ -40,7 +40,7 @@ export const Specials = () => {
             <h1>Pasta</h1>
             <p>$12.99</p>
           </div>
-          <p>
+          <p id="info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, odio.
             Commodi doloremque, quo explicabo eaque ratione perferendis, fuga
             quam dicta reiciendis.
@@ -56,7 +56,7 @@ export const Specials = () => {
             <h1>Greek salad</h1>
             <p>$10.99</p>
           </div>
-          <p>
+          <p id="info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, odio.
             Commodi doloremque, quo explicabo eaque ratione perferendis, fuga
             quam dicta reiciendis.
@@ -72,7 +72,7 @@ export const Specials = () => {
             <h1>Tomato Bread</h1>
             <p>$13.99</p>
           </div>
-          <p>
+          <p id="info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, odio.
             Commodi doloremque, quo explicabo eaque ratione perferendis, fuga
             quam dicta reiciendis.

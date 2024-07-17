@@ -26,7 +26,7 @@ export const BookingForm = () => {
 
   console.log(errors);
   return (
-    <div className="form-background">
+    <Link to='bookingform'><div className="form-background">
       <div className="form">
         <img className="pic"  src={restaurant} alt="" />
         <form className="form-class" onSubmit={handleSubmit} autoComplete="off">
@@ -54,6 +54,7 @@ export const BookingForm = () => {
               onChange={handleChange}
               onBlur={handleBlur}
               type="number"
+              required
               id="guestNumber"
               name="guestNumber"
               className={errors.guestNumber && touched.guestNumber ? "input-error" : ""}
@@ -78,6 +79,7 @@ export const BookingForm = () => {
               onChange={handleChange}
               onBlur={handleBlur}
               type="date"
+              required
               id="date"
               name="date"
               className={errors.date && touched.date ? "input-error" : ""}
@@ -91,9 +93,9 @@ export const BookingForm = () => {
               onChange={handleChange}
               onBlur={handleBlur}
               type="time"
+              required
               id="time"
               name="time"
-              required
             />
           </div>
           <div>
@@ -103,6 +105,6 @@ export const BookingForm = () => {
           </div>
         </form>
       </div>
-    </div>
+    </div></Link>
   );
 };
